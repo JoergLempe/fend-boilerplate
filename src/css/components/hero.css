@@ -6,21 +6,53 @@
 .hero-title {
   text-align: center;
   position: absolute;
-  top: 50%;
+  top: 260px;
   right: 50%;
   transform: translate(50%,-50%);
   z-index: 10;
   color: white;
 }
 
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 373px;
+  right: 50%;
+  transform: translate(50%,-50%);
+  z-index: 10;
+  color: white;
+}
+
+.button {
+  text-align: center;
+  position: absolute;
+  top: 543px;
+  right: 50%;
+  transform: translate(50%,-50%);
+  z-index: 10;
+  color: white;
+  background-color: #1A1A1A;
+  padding: 15px 50px 15px 50px;
+  border: 2px;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: #737373;
+}
+
+.button:active {
+  background-color: #D7BE9D;
+}
+
 .hero-img {
-  background-image: url("images/coffee.jpg");
+  background-image: url("../../images/coffee.jpg");
   background-color: 1A1A1A;
   height: 65%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  filter: grayscale(50%);
+  filter: grayscale(15%);
   z-index: 5;
 }

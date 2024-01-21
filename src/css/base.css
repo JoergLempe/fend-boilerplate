@@ -2,7 +2,7 @@ body {
   background: grey;
 
   @media (min-width: 768px) {
-    color: red;
+    color: black;
   }
 }
 
