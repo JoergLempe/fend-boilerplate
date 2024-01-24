@@ -1,6 +1,33 @@
+/*
 .hero {
   color: red;
   position: relative;
+}
+
+.container {
+  box-sizing: border-box;
+}
+.header {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  background-origin: border-box;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
+  grid-template-rows: auto;
+  align-items: center;
+  justify-items: center;
+  height: 75vh;
+  padding-bottom: 5%;
+  width: 100%;
+}
+
+.tassen {
+  color: white;
+  height: 75%;
+  background-image: url('../images/coffee.jpg');
+  height: 400px;
 }
 
 section {
@@ -8,14 +35,19 @@ section {
   align-content: center;
   text-align: center;
   grid-template-columns: auto;
-  background-color: darkgray;
-  background-image: url("../../images/coffee.jpg");
-  margin: 10px;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-origin: border-box;
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 5px;
+  width: 100%;
   height: 100%;
+  z-index: 10;
  }
 
  .div-leer {
-  height: 400px;
+  height: 40px;
  }
 
 .hero-title {
@@ -27,10 +59,10 @@ section {
   color: white;
 }
 
-.hero-text {
+.header-text {
+  display: block;
   text-align: center;
   position: absolute;
-  top: 373px;
   right: 50%;
   transform: translate(50%,-50%);
   z-index: 10;
@@ -40,7 +72,6 @@ section {
 .button {
   text-align: center;
   position: absolute;
-  top: 543px;
   right: 50%;
   transform: translate(50%,-50%);
   z-index: 10;
@@ -69,4 +100,37 @@ section {
   position: relative;
   filter: grayscale(15%);
   z-index: 5;
+}
+*/
+.hero {
+  height: 75vh;
+  background-image: url("../../images/coffee.jpg");
+  background-size: cover;
+  background-position: top;
+  position: relative;
+}
+
+.hero-box {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+z-index: 10;
+}
+
+.hero-title {
+  color: #fff;
+}
+
+.hero-rustica {
+  display: block;
+  font-size: 96px;
+  font-weight: 900;
+
+}
+.hero-fair {
+  display: block;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
 }

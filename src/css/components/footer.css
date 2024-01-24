@@ -1,0 +1,9 @@
+footer {
+    display: block;
+}
+
+.footer {
+    background-color: black;
+    padding: 60px 50px;
+    color: white;
+}
