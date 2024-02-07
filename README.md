@@ -34,4 +34,4 @@ After compilation you can check the dist folder to see what vite has written to 
 
 [https://eslint.org/docs/user-guide/configuring](https://eslint.org/docs/user-guide/configuring)
 
-[https://prettier.io/docs/en/configuration.html](https://prettier.io/docs/en/configuration.html)
+[https://prettier.io/docs/en/configuration.html](https://prettier.io/docs/en/configuration.html)# fend-vite-boilerplate3
