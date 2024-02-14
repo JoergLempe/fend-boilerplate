@@ -8,6 +8,7 @@
   background-repeat: no-repeat;
   filter: grayscale(15%);
   z-index: 5;
+  margin-bottom: 5rem;
 }
 
 .hero-box {
