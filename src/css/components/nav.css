@@ -1,0 +1,37 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 20;
+    font-family: Roboto;
+    font-size: 22px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+
+}
+
+.logo {
+    height: 35px;
+    width: auto;
+}
+
+.links {
+    display: flex;
+}
+
+.links a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.wagen{
+    height: 22px;
+}
