@@ -1,0 +1,33 @@
+footer {
+    display: block;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.footer {
+    background-color: black;
+    padding: 10px 20px;
+    color: white;
+
+}
+
+.column {
+    flex: 1;
+    flex-direction: row;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: auto;
+  }
+
+    .img {
+    width: 70px; 
+    height: auto; 
+  }
+  
+
+.foottext {
+    padding-top: 20px;
+    text-align: left;
+}
