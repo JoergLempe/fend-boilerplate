@@ -1,4 +1,4 @@
-.nav {
+.navi {
     position: fixed;
     top: 0;
     left: 0;
@@ -19,13 +19,11 @@ ul {
 .logo {
     height: 35px;
     width: auto;
-    
 }
 
 .menu {
     height: 12.5px;
     width: auto;
-
 }
 
 
