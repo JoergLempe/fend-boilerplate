@@ -7,6 +7,22 @@
     margin-top: 10px;
 }
 
+.imgcafe {
+    display: block;
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: 0;
+    height: auto;
+}
+
+.imgplant {
+    display: block;
+    max-width: 70%;
+    margin-left: 0;
+    margin-right: auto;
+    height: auto;
+}
+
 .container entdecke{
     text-align: center;
     max-height: 75vh;
