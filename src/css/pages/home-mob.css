@@ -28,7 +28,11 @@
     max-width: auto;
     padding: 5 10;
     background-color: var(--color-white);
+}
 
+.costa {
+    color: var(--color-white);
+    text-align: left;
 }
 
 

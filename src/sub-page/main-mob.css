@@ -1,0 +1,6 @@
+@import "variables.css";
+@import "../css/base-mob.css";
+@import "../css/layout/header-mob.css";
+@import "../css/layout/nav-mob.css";
+@import "../css/pages/home-mob.css";
+@import "../css/layout/footer-mob.css";
