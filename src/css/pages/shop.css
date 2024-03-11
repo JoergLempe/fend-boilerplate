@@ -1,0 +1,27 @@
+.ueberschrift-shop {
+    padding-top: 50px;
+    color: var(--color-anthrazit);
+    font-family: Roboto;
+    font-weight: 900;
+    font-size: 48px;
+  }
+  .shop {
+    display: flex;
+    flex-wrap: wrap;
+    color: var(--color-anthrazit);
+    background-color: var(--color-white);
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .kaffeebild {
+    max-width: auto;
+    padding: 5 10;
+    background-color: var(--light-grey);
+  }
+  
+  .map {
+    height: 50vh;
+  }
+  
