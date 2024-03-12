@@ -24,13 +24,25 @@
 
 .item {
   flex: 0 0 20%;
-  margin-bottom: 20px;
+  margin: 10px;
   padding: 10px;
   border: 1px solid #ccc;
 }
 
+.kaffeetute {
+  background-color: var(--color-light-grey);
+}
+
+.name {
+  color: var(--color-anthrazit);
+  margin: 0;
+  padding: 0;
+}
+
 .preis {
-    color: var(--color-anthrazit);
+    color: var(--color-medium-grey);
+    margin: 0;
+    padding: 0;
 }
 
 @media only screen and (max-width: 768px) {
